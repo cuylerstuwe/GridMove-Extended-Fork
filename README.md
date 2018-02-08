@@ -1,4 +1,4 @@
-GridMove
+GridMove (Fork by Cuyler Stuwe aka salembeats)
 ========
 
 GridMove is a Windows program that aims at making windows management easier. It helps you with this task by defining a visual grid on your desktop, to which you can easily snap windows. It is built with [AutoHotkey](http://www.autohotkey.com "AutoHotKey"), a scripting language for desktop automation for Windows.
@@ -17,3 +17,8 @@ Source code organization
 * Aero\_lib.ahk - Library for handling Aero look
 
 This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License.
+
+Fork details:
+------------
+
+This fork fixes an #include path in the most recent push of the official branch, and adds Win+G command support for 3-digit grid spaces (useful for xipergrid2 and other grids meant for high-res displays).
