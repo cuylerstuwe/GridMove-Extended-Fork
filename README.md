@@ -1,22 +1,26 @@
-GridMove (Fork by Cuyler Stuwe aka salembeats)
+GridMove (Forked for extended 3-digit Win+G shortcuts)
 ========
 
-GridMove is a Windows program that aims at making windows management easier. It helps you with this task by defining a visual grid on your desktop, to which you can easily snap windows. It is built with [AutoHotkey](http://www.autohotkey.com "AutoHotKey"), a scripting language for desktop automation for Windows.
+Tool for aligning windows to a grid on Windows.
+**NOTE**: Requires [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe).
 
-More information at [GridMove's homepage](http://jgpaiva.dcmembers.com/gridmove.html).
+To run:
+------------
 
-Source code organization
-------------------------
+1. After downloading and extracting the project ZIP or cloning the repository, move the base directory to wherever you intended to keep it permanently *(The program sets some paths on first run relative to its current position that it expects to remain unchanged)*.
 
-* GridMove.ahk - Main program, most of the functionality
-* files.ahk - Configuration and Grid parsing
-* command.ahk - Keyboard (command) interface 
-* calc.ahk - Evaluates the .grid files
-* helper.ahk - Tooltips for first run
-* strings.ahk - Language file
-* Aero\_lib.ahk - Library for handling Aero look
+2. Assuming the current standard version of AutoHotkey is installed, double-click `GridMove.ahk` in the project's root directory.
 
-This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License.
+3. You should see a *"first-run"* popup showing you around. You may also be presented with an error about a grid resource missing. You can dismiss this error if it comes up.
+
+Usage:
+-------------
+
+The main interface for the tool is the system tray. There, you can control which grids you'd like to align to, and how to align to them.
+
+One of the default options for window alignment is by *"middle-mouse-button dragging"* which is also my personal preference.
+
+I also find that for HD and 4K monitors, `xipergrid2` is my favorite alignment grid.
 
 Fork details:
 ------------
