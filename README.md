@@ -25,4 +25,6 @@ I also find that for HD and 4K monitors, `xipergrid2` is my favorite alignment g
 Fork details:
 ------------
 
-This fork fixes an #include path in the most recent push of the official branch, and adds Win+G command support for 3-digit grid spaces (useful for xipergrid2 and other grids meant for high-res displays).
+This fork fixes an #include path in the most recent push of the official branch, which otherwise would break the tool entirely.
+
+It also adds Win+G command support for 3-digit grid spaces *(useful for xipergrid2 and other grids meant for high-res displays)*.
