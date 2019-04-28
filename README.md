@@ -4,7 +4,7 @@ GridMove (Forked for extended 3-digit Win+G shortcuts)
 Tool for aligning windows to a grid on Windows.
 **NOTE**: Requires [AutoHotkey](https://www.autohotkey.com/download/ahk-install.exe).
 
-To run:
+Setup / Running:
 ------------
 
 1. After downloading and extracting the project ZIP or cloning the repository, move the base directory to wherever you intended to keep it permanently *(The program sets some paths on first run relative to its current position that it expects to remain unchanged)*.
